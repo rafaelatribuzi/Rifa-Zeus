@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rifa Zeus</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="superior flex">
+      <img src="/imagens/imagem02.svg" alt="" />
+      <h3>RIFA</h3>
+    </div>
+
+    <div class="container-wrapper">
+      <div class="container">
+        <div>
+          <p>RIFA DE DOCES</p>
+          <h1 class="mt-1">RIFA</h1>
+        </div>
+        <div>
+          <div class="flex funcionamento mt-5">
+            <img src="/imagens/imagem01.svg" alt="" />
+            <p class="small">COMO FUNCIONA?</p>
+          </div>
+          <p class="smaller mt-1">
+            A rifa utiliza um algoritmo que realiza o sorteio de forma aleatória
+            a partir de uma lista de participantes. <br /><br />
+            Este processo garante que o vencedor seja selecionado de maneira
+            <strong>justa</strong> e <strong>imprevisível</strong>.
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="sorteio">
+          <h4>QUERO FAZER O SORTEIO</h4>
+          <button class="mt-2 primary btn-sortear">SORTEAR</button>
+          <p class="smaller text-right mt-2">
+            Clique em sortear e veja o resultado na tela. <br> Rápido e fácil
+          </p>
+        </div>
+        <div class="texto-sorteio" style="display: none">
+          <h4>RESULTADO DO SORTEIO</h4>
+          <h2 id="nome-sorteado" class="mt-1">01 - José Alencar</h2>
+          <p id="email-sorteado" class="mt-1" style="color: #00D0FF; font-weight: 400">jose@gmail.com</p>
+
+          <button class="mt-4 primary btn-sortear">SORTEAR NOVAMENTE</button>
+          <p class="smaller text-right mt-2">Clique em sortear e veja o resultado na tela. <br>
+          Rápido e fácil</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

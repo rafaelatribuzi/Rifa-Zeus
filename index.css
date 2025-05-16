@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Sora", sans-serif;
+    box-sizing: border-box;
+    background-color: #020202;
+}
+
+body{
+    padding: 0 4rem 0 4rem; 
+    background:#020202;
+    color: #ffff;
+    
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.container-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem; 
+    margin: 100px auto;
+    max-width: 800px;
+}
+
+
+/*FONTES*/
+
+h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color:#00D0FF;
+    
+    
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+
+h4{
+    font-size: 1.25rem;
+    font-weight: 700;
+    
+}
+
+p, span {
+    font-size: 1rem;
+    color: #C7C9CC;
+
+      
+    
+}
+
+.small{
+    font-size: 0.875rem;
+    color: #16B6DA;
+
+}
+
+.smaller{
+    font-size: 0.750rem;
+    color: #C7C9CC;
+    
+    
+
+}
+
+.semi-bold{
+    font-weight: 600;
+}
+
+.medium{
+    font-weight: 500;
+
+}
+
+.regular{
+    font-weight: 400;
+    
+}
+
+strong {
+    color: #fff;         /* branco */
+    font-weight: bold;   /* reforça o negrito, mesmo que já seja padrão */
+}
+
+/*BOTÕES*/
+
+.primary{
+    background-color: #16B6DA;
+    padding: 0.50rem 3rem;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+/*ESPAÇAMENTO ENTRE ELEMENTOS*/
+
+.mt-1{
+    margin-top: 0.5rem; /*8px*/
+}
+
+.mt-2{
+    margin-top: 1rem; /*16px*/
+}
+
+.mt-3{
+    margin-top: 1.5rem; /*24px*/
+}
+
+.mt-4{
+    margin-top: 2rem; /*32px*/
+}
+
+.mt-5{
+    margin-top: 2.5rem; /*64px*/
+}
+
+
+.flex{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text-right {
+  text-align: right;
+  width: 100%;
+
+}
+
+.superior{
+    width: 60%;
+    max-width:800px;
+    gap: 2rem;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.funcionamento{
+    gap: 1rem;
+}
+
+.sorteio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.texto-sorteio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+  
+}
+
+/*CORES*/
+/*
+background: #00D0FF;
+background: #16B6DA;
+background: #D9D9D9;
+background: #FFFFFF;
+background: #020202;
+
+
+
+
+
+
+
+*/
